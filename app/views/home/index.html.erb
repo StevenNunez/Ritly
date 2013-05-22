@@ -1,0 +1,6 @@
+<h1>Welcome to Ritly, a semi useful url shortener</h1>
+<%= form_for @url do |f| %>
+  <%= f.label :link %>
+  <%= f.text_field :link %>
+  <%= f.submit %>
+<% end %>
